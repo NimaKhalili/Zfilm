@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+   <!-- Base application theme. -->
+    <style name="Theme.Hamovie"  parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.Actionbar</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >@color/blue</item>
+        <item name="fontFamily">@font/primary_regular</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="dividerColor">@color/gray</item>
+        <item name="android:textColorSecondary">@color/darkGray</item>
+        <item name="android:lineSpacingExtra">6dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="ThemeOverlay.Actionbar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" >
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="postSplashScreenTheme">@android:style/Theme.Material.Light.NoActionBar</item>
+<!--        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@drawable/ic_camera</item>-->
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">@color/white</item>
+    </style>
+</resources>
